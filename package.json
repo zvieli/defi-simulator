@@ -6,26 +6,24 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zvieli/defi-simulator.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zvieli/defi-simulator/issues"
+  },
+  "homepage": "https://github.com/zvieli/defi-simulator#readme",
   "devDependencies": {
-    "@nomicfoundation/hardhat-ignition": "^3.0.0",
-    "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^3.0.0",
-    "@types/chai": "^4.3.20",
-    "@types/chai-as-promised": "^8.0.2",
-    "@types/mocha": "^10.0.10",
-    "@types/node": "^22.17.2",
-    "chai": "^5.3.3",
-    "ethers": "^6.15.0",
-    "forge-std": "github:foundry-rs/forge-std#v1.9.4",
-    "hardhat": "^3.0.1",
-    "mocha": "^11.7.1",
-    "typescript": "~5.8.0"
+    "hardhat": "^3.0.1"
   },
   "type": "module",
   "dependencies": {
     "@openzeppelin/contracts": "^5.4.0",
-    "dotenv": "^17.2.1"
+    "dotenv": "^17.2.1",
+    "ethers": "^6.15.0"
   }
 }
